@@ -1,0 +1,56 @@
+
+# ARQUIVO LOCAL NECESSARIO
+ ".env.local" com as seguintes chaves
+
+# STRIPE
+                STRIPE_API_KEY= **
+                NEXT_PUBLIC_STRIPE_PUBLIC_KEY=
+                STRIPE_WEBHOOK_SECRET = no terminal Ready! Your webhook signing secret is...
+                STRIPE_SUCCESS_URL =http://localhost:3000/posts
+                STRIPE_CANCEL_URL =http://localhost:3000/
+
+
+# GitHub
+                
+                GITHUB_CLIENT_ID=  **
+                GITHUB_CLIENT_SECRET= **
+
+# FaunaDB
+
+                FAUNADB_KEY= **https://dashboard.fauna.com/keys/
+
+
+# STRIPE_LISTEN
+                https://github.com/stripe/stripe-cli
+                brew install stripe/stripe-cli/stripe
+                stripe login
+                stripe listen --forward-to localhost:3000/api/webhooks
+
+# Prismic CMS
+
+        PRISMIC_ENDPOINT= **
+        PRISMIC_ACCESS_TOKEN= **
+
+
+
+# SliceMachine do Prismic
+
+# rodar o slicemachine para editar o tamplate
+        yarn run slicemachine
+
+# estrutura do post
+        # Uid ()
+        # Title (key text)
+        # Content (Richtext)
+
+# install jest devDependencies
+                yarn add jest jest-dom @testing-library/jest-dom @testing-library/dom @testing-library/react babel-jest -D
+# atualização para rodar
+                yarn add jest-environment-jsdom -D
+   # para o jest entender os arquivos scss
+                yarn add identity-obj-proxy -D
+   # arquivo para ajudar a criar sessão
+        yarn add jest-mock -D
+   # chamada de render() de '@testing-library/react'
+
+  # yarn test --coverage para gerar o relatório de testes implementados
