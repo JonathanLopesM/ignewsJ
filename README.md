@@ -1,2 +1,0 @@
-# finalIgnews
-# ignewsJ
