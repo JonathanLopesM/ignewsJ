@@ -19,7 +19,7 @@ interface PostsProps {
   posts: Post[]
 }
 
-export function Posts({posts}: PostsProps){
+export default function Posts({posts}: PostsProps){
   return (
     <>
     <Head>
